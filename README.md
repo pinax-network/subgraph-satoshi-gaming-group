@@ -18,7 +18,7 @@
 
 - **API Key**: https://thegraph.com/studio/apikeys/
 - **Base URL**: https://gateway.thegraph.com/api
-- **Subgraph ID**: [`68hLjdJHCYMufv8UUN56aEZ4XV4ERgFnAwbLARnNX6wz`](https://thegraph.com/explorer/subgraphs/68hLjdJHCYMufv8UUN56aEZ4XV4ERgFnAwbLARnNX6wz?view=Query&chain=arbitrum-one)
+- **Subgraph ID**: [`2s2nR9EC2j1jHJRZHJhLWq5Rm9SZTWawWfA9ec4vX9hn`](https://thegraph.com/explorer/subgraphs/2s2nR9EC2j1jHJRZHJhLWq5Rm9SZTWawWfA9ec4vX9hn?view=Query&chain=arbitrum-one)
 - **Query URL format**: `{base_url}`/api/`{api-key}`/subgraphs/id/`{subgraph_id}`
 
 ## GraphQL

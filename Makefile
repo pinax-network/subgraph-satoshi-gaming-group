@@ -19,7 +19,7 @@ create:
 .PHONY: publish
 publish:
 	graph build
-	graph publish --subgraph-id "<SUBGRAPH ID>"
+	graph publish --subgraph-id 2s2nR9EC2j1jHJRZHJhLWq5Rm9SZTWawWfA9ec4vX9hn
 
 .PHONY: gui
 gui:
