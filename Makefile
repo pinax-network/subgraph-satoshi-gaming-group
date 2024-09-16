@@ -1,8 +1,6 @@
 .PHONY: all
 all:
 	make build
-	make create
-	make deploy
 
 .PHONY: build
 build:
@@ -10,11 +8,9 @@ build:
 
 .PHONY: deploy
 deploy:
-	graph deploy --node=http://localhost:8020 satoshi-gaming-group
-
-.PHONY: create
-create:
+	graph build
 	graph create --node http://localhost:8020 satoshi-gaming-group
+	graph deploy --node=http://localhost:8020 satoshi-gaming-group
 
 .PHONY: publish
 publish:
@@ -23,4 +19,4 @@ publish:
 
 .PHONY: gui
 gui:
-	substreams gui ./substreams/eos-transactions-v0.3.9.spkg -e eos.substreams.pinax.network:443 graph_out -s 390796092 --params "graph_out=(code:txtprotocol2 || data.to:txtprotocol1 || data.from:txtprotocol1) && notif:false"
+	substreams gui ./substreams/antelope-transactions-v0.4.2.spkg -e eos.substreams.pinax.network:443 graph_out -s 390796092 --params "graph_out=(code:txtprotocol2 || data.to:txtprotocol1 || data.from:txtprotocol1) && notif:false"
