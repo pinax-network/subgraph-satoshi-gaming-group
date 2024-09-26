@@ -19,4 +19,4 @@ publish:
 
 .PHONY: gui
 gui:
-	substreams gui ./substreams/antelope-transactions-v0.4.2.spkg -e eos.substreams.pinax.network:443 graph_out -s 390796092 --params "graph_out=(code:txtprotocol2 || data.to:txtprotocol1 || data.from:txtprotocol1) && notif:false"
+	substreams gui ./substreams/antelope-transactions-v0.5.0.spkg -e eos.substreams.pinax.network:443 --production-mode graph_out -s 390796092 --params "graph_out=(code:txtprotocol2 || data.to:txtprotocol1 || data.from:txtprotocol1) && notif:false"
